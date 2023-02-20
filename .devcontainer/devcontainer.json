@@ -12,16 +12,16 @@
 	"workspaceFolder": "/workspace",
 
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/git-lfs:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
-			"version": "latest",
-		},
+		// "ghcr.io/devcontainers/features/git:1": {},
+		// "ghcr.io/devcontainers/features/git-lfs:1": {},
+		// "ghcr.io/devcontainers/features/github-cli:1": {},
+		// "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+		// 	"version": "latest",
+		// },
 		// "ghcr.io/devcontainers-contrib/features/firebase-cli:2": {}
 	},
 
-	"runArgs": ["--gpus=all","--ipc=host"],
+	"runArgs": ["--gpus=all"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
