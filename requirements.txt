@@ -1,2 +1,8 @@
 ipykernel
 scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+regex
+nbconvert

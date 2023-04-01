@@ -9,8 +9,6 @@
 		"dockerfile": "../Dockerfile"
 	},
 
-	"workspaceFolder": "/workspace",
-
 	"features": {
 		// "ghcr.io/devcontainers/features/git:1": {},
 		// "ghcr.io/devcontainers/features/git-lfs:1": {},
@@ -18,10 +16,10 @@
 		// "ghcr.io/devcontainers/features/nvidia-cuda:1": {
 		// 	"version": "latest",
 		// },
-		// "ghcr.io/devcontainers-contrib/features/firebase-cli:2": {}
+		// "ghcr.io/devcontainers/features/python": "3.9"
 	},
 
-	"runArgs": ["--gpus=all"],
+	"runArgs": ["--gpus=all"],//,"--runtime=nvidia"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -30,14 +28,15 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "cat /etc/os-release",
+	"postCreateCommand": "cat /etc/os-release && nvidia-smi",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"jithurjacob.nbpreviewer"
 			]
 		}
 	},
