@@ -20,6 +20,11 @@ You can run this in either Google Colab [Google Colab](#google-colab) or [Visual
 - Setup a runtime by starting a runtime. ![image](./images/starting%20a%20runtime.jpeg)
 - Navigate to the navbar and selecting **Runtime > Run all** or use the hotkey `Ctrl+F9` to run all cells in the notebook
 
+1. Download the dataset.csv and the Language_Detection_Final_Report.ipynb
+2. Place both files in the same folder on google drive
+3. Open Language_Detection_Final_Report.ipynb in Google Colab
+4. Run the mounting the workspace cell to mount google drive (Edit the path to the path of the folder in your google drive)
+
 ### VSCode
 
 1. Prior to opening the repository in VSCode, make sure the requirements are met.
